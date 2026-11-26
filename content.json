@@ -2,6 +2,7 @@
   "_help": "HOW TO EDIT: change the text after the colon on any line, keep the quotes and the comma. 'en' is English, 'ar' is Arabic. The key on the left says what the line is (see _notes). Then press Commit changes on GitHub. Do not rename keys.",
   "en": {
     "available_badge": "Available for new projects",
+    "hero_line": "Brand identities, social media campaigns and print for clients in beauty, fitness, real estate, education and events.",
     "home": "Home",
     "about": "About",
     "work": "Work",
@@ -97,6 +98,7 @@
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
+    "hero_line": "هويات بصرية وحملات سوشيال ميديا ومطبوعات لعملاء في التجميل واللياقة والعقارات والتعليم والفعاليات.",
     "home": "الرئيسية",
     "about": "نبذة عني",
     "work": "أعمالي",
