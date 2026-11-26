@@ -99,7 +99,9 @@
     "next_project": "Next project",
     "campaigns": "Campaigns",
     "experience": "Experience",
-    "years_6": "6+ years"
+    "years_6": "6+ years",
+    "t_portfolio_2025": "Portfolio 2025",
+    "t_smart_portfolio": "Smart Vision Portfolio"
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
@@ -200,7 +202,9 @@
     "next_project": "المشروع التالي",
     "campaigns": "حملات",
     "experience": "الخبرة",
-    "years_6": "أكثر من 6 سنوات"
+    "years_6": "أكثر من 6 سنوات",
+    "t_portfolio_2025": "بورتفوليو 2025",
+    "t_smart_portfolio": "بورتفوليو سمارت فيجن"
   },
   "_notes": {
     "available_badge": "badge: home hero + contact page",
