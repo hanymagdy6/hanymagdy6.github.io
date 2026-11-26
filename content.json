@@ -2,7 +2,7 @@
   "_help": "HOW TO EDIT: change the text after the colon on any line, keep the quotes and the comma. 'en' is English, 'ar' is Arabic. The key on the left says what the line is (see _notes). Then press Commit changes on GitHub. Do not rename keys.",
   "en": {
     "available_badge": "Available for new projects",
-    "hero_line": "Brand identities, social media campaigns and print for clients in beauty, fitness, real estate, education and events.",
+    "hero_line": "Branding, social media and print design.",
     "home": "Home",
     "about": "About",
     "work": "Work",
@@ -96,11 +96,14 @@
     "t_event_branding": "Event branding",
     "t_branding_graduation_project": "Branding, graduation project",
     "more_from_project": "More from this project",
-    "next_project": "Next project"
+    "next_project": "Next project",
+    "campaigns": "Campaigns",
+    "experience": "Experience",
+    "years_6": "6+ years"
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
-    "hero_line": "هويات بصرية وحملات سوشيال ميديا ومطبوعات لعملاء في التجميل واللياقة والعقارات والتعليم والفعاليات.",
+    "hero_line": "هويات بصرية وسوشيال ميديا ومطبوعات.",
     "home": "الرئيسية",
     "about": "نبذة عني",
     "work": "أعمالي",
@@ -194,7 +197,10 @@
     "t_event_branding": "هوية فعاليات",
     "t_branding_graduation_project": "هوية بصرية، مشروع التخرج",
     "more_from_project": "المزيد من هذا المشروع",
-    "next_project": "المشروع التالي"
+    "next_project": "المشروع التالي",
+    "campaigns": "حملات",
+    "experience": "الخبرة",
+    "years_6": "أكثر من 6 سنوات"
   },
   "_notes": {
     "available_badge": "badge: home hero + contact page",
