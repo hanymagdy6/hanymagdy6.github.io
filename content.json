@@ -94,7 +94,9 @@
     "t_branding_and_social_media": "Branding and social media",
     "t_poster": "Poster",
     "t_event_branding": "Event branding",
-    "t_branding_graduation_project": "Branding, graduation project"
+    "t_branding_graduation_project": "Branding, graduation project",
+    "more_from_project": "More from this project",
+    "next_project": "Next project"
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
@@ -190,7 +192,9 @@
     "t_branding_and_social_media": "هوية بصرية وسوشيال ميديا",
     "t_poster": "بوستر",
     "t_event_branding": "هوية فعاليات",
-    "t_branding_graduation_project": "هوية بصرية، مشروع التخرج"
+    "t_branding_graduation_project": "هوية بصرية، مشروع التخرج",
+    "more_from_project": "المزيد من هذا المشروع",
+    "next_project": "المشروع التالي"
   },
   "_notes": {
     "available_badge": "badge: home hero + contact page",
