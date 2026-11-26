@@ -101,7 +101,12 @@
     "experience": "Experience",
     "years_6": "6+ years",
     "t_portfolio_2025": "Portfolio 2025",
-    "t_smart_portfolio": "Smart Vision Portfolio"
+    "t_smart_portfolio": "Smart Vision Portfolio",
+    "fact_type": "Type",
+    "fact_images": "Images",
+    "fact_designer": "Designer",
+    "designer_name": "Hany Magdy",
+    "prev_project": "Previous project"
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
@@ -204,7 +209,12 @@
     "experience": "الخبرة",
     "years_6": "أكثر من 6 سنوات",
     "t_portfolio_2025": "بورتفوليو 2025",
-    "t_smart_portfolio": "بورتفوليو سمارت فيجن"
+    "t_smart_portfolio": "بورتفوليو سمارت فيجن",
+    "fact_type": "النوع",
+    "fact_images": "عدد الصور",
+    "fact_designer": "المصمم",
+    "designer_name": "هاني مجدي",
+    "prev_project": "المشروع السابق"
   },
   "_notes": {
     "available_badge": "badge: home hero + contact page",
