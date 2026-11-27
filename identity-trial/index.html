@@ -61,4 +61,6 @@ lb.addEventListener('click',function(e){if(e.target===lb||e.target.className==='
 lb.querySelector('.lbp').onclick=function(){show(cur-1)};lb.querySelector('.lbn').onclick=function(){show(cur+1)};
 document.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur+(document.documentElement.dir==='rtl'?1:-1));if(e.key==='ArrowRight')show(cur+(document.documentElement.dir==='rtl'?-1:1))});
 })();
+</script><script>
+(function(){var n=document.querySelector(".top");if(!n)return;var t;addEventListener("scroll",function(){n.classList.add("navhide");clearTimeout(t);t=setTimeout(function(){n.classList.remove("navhide")},250)},{passive:true})})();
 </script></body></html>
