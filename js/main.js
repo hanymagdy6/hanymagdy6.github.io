@@ -784,7 +784,7 @@
       go(0);
       if (!matchMedia("(prefers-reduced-motion:reduce)").matches)
         tm = setInterval(function () {
-          go(i + 1);
+          if (!document.hidden) go(i + 1);
         }, 5500);
       var x = 0;
       d.addEventListener(
@@ -813,7 +813,7 @@
     }
     b();
     setInterval(function () {
-      b();
+      if (!document.hidden) b();
     }, 1000);
   })();
 })();
