@@ -3466,3 +3466,8 @@ html[dir="rtl"] .nav .mono img {
 .cst strong{font-size:clamp(26px,4vw,42px);line-height:1.15}
 @media(max-width:700px){.cs{grid-template-columns:1fr;gap:20px}}
 .cst .pill{margin:6px 10px 6px 8px}
+/* All work + Contact me always sit side by side */
+.more{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:nowrap}
+.more .pill{margin:0;white-space:nowrap;flex:0 1 auto}
+@media(max-width:440px){.more{gap:8px}.more .pill{padding:14px 18px;font-size:12px;letter-spacing:.06em}}
+@media(max-width:340px){.more .pill{padding:13px 12px;font-size:11px;letter-spacing:.03em}}
