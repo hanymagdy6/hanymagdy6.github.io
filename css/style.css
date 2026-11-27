@@ -13,9 +13,7 @@
 }
 body {
   margin: 0;
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
 }
 .nav {
   transition: transform 0.3s ease;
@@ -605,52 +603,28 @@ main.pgv {
     font-size: 13px;
   }
 }
-[data-view="p-rui-brew"] .v-p-rui-brew {
+[data-view="p-rui-brew"] .v-p-rui-brew, [data-view="p-splasho"] .v-p-splasho {
   display: block;
 }
-[data-view="p-splasho"] .v-p-splasho {
+[data-view="p-logo-brand"] .v-p-logo-brand, [data-view="p-el-ghazal"] .v-p-el-ghazal {
   display: block;
 }
-[data-view="p-logo-brand"] .v-p-logo-brand {
+[data-view="p-safe-zone"] .v-p-safe-zone, [data-view="p-soul-fitness"] .v-p-soul-fitness {
   display: block;
 }
-[data-view="p-el-ghazal"] .v-p-el-ghazal {
+[data-view="p-clarena"] .v-p-clarena, [data-view="p-gym-social"] .v-p-gym-social {
   display: block;
 }
-[data-view="p-safe-zone"] .v-p-safe-zone {
+[data-view="p-real-estate"] .v-p-real-estate, [data-view="p-pink-october"] .v-p-pink-october {
   display: block;
 }
-[data-view="p-soul-fitness"] .v-p-soul-fitness {
+[data-view="p-oct-war"] .v-p-oct-war, [data-view="p-svs-events"] .v-p-svs-events {
   display: block;
 }
-[data-view="p-clarena"] .v-p-clarena {
+[data-view="p-smart-portfolio"] .v-p-smart-portfolio, [data-view="p-jabal-altair"] .v-p-jabal-altair {
   display: block;
 }
-[data-view="p-gym-social"] .v-p-gym-social {
-  display: block;
-}
-[data-view="p-real-estate"] .v-p-real-estate {
-  display: block;
-}
-[data-view="p-pink-october"] .v-p-pink-october {
-  display: block;
-}
-[data-view="p-oct-war"] .v-p-oct-war {
-  display: block;
-}
-[data-view="p-svs-events"] .v-p-svs-events {
-  display: block;
-}
-[data-view="p-smart-portfolio"] .v-p-smart-portfolio {
-  display: block;
-}
-[data-view="p-jabal-altair"] .v-p-jabal-altair {
-  display: block;
-}
-[data-view="p-essse-caffe"] .v-p-essse-caffe {
-  display: block;
-}
-[data-view="p-food-social"] .v-p-food-social {
+[data-view="p-essse-caffe"] .v-p-essse-caffe, [data-view="p-food-social"] .v-p-food-social {
   display: block;
 }
 .pstack {
@@ -890,11 +864,7 @@ footer[id] {
   flex-direction: row !important;
   gap: 0 !important;
 }
-.nav .l a,
-.nav .l .ddt {
-  color: #e8e2d5 !important;
-}
-.nav .r {
+.nav .l a, .nav .l .ddt, .nav .r {
   color: #e8e2d5 !important;
 }
 .nav .mono {
@@ -1124,22 +1094,13 @@ footer[id] {
 .nav .l .ddp a:hover:after {
   transform: scaleX(1) !important;
 }
-[data-view="p-educational-center"] .v-p-educational-center {
+[data-view="p-educational-center"] .v-p-educational-center, [data-view="p-intrip-logo"] .v-p-intrip-logo {
   display: block;
 }
-[data-view="p-intrip-logo"] .v-p-intrip-logo {
+[data-view="p-sketches"] .v-p-sketches, [data-view="p-smart-vision"] .v-p-smart-vision {
   display: block;
 }
-[data-view="p-sketches"] .v-p-sketches {
-  display: block;
-}
-[data-view="p-smart-vision"] .v-p-smart-vision {
-  display: block;
-}
-[data-view="p-leading-gulf"] .v-p-leading-gulf {
-  display: block;
-}
-[data-view="p-art-photo"] .v-p-art-photo {
+[data-view="p-leading-gulf"] .v-p-leading-gulf, [data-view="p-art-photo"] .v-p-art-photo {
   display: block;
 }
 .langbtn {
@@ -1356,16 +1317,7 @@ html[lang="ar"] .ddp a {
   object-fit: contain !important;
   display: block;
 }
-img:not(.nav img):not(.langbtn img):not([src$=".svg"]),
-.card,
-.pcard,
-.pimg img,
-.pimg {
-  border-radius: 5px;
-}
-.card img,
-.pcard img,
-.pimg img {
+img:not(.nav img):not(.langbtn img):not([src$=".svg"]), .card, .pcard, .pimg img, .pimg, .card img, .pcard img, .pimg img {
   border-radius: 5px;
 }
 .grid,
@@ -1981,20 +1933,10 @@ html[lang="ar"] h3,
 html[lang="ar"] h4 {
   line-height: 1.45;
 }
-html[lang="ar"] .hero h1,
-html[lang="ar"] .band h2,
-html[lang="ar"] .foot h2,
-html[lang="ar"] .banner h2,
-html[lang="ar"] .pagehead h1 {
+html[lang="ar"] .hero h1, html[lang="ar"] .band h2, html[lang="ar"] .foot h2, html[lang="ar"] .banner h2, html[lang="ar"] .pagehead h1, html[lang="ar"] .facts b {
   line-height: 1.3 !important;
 }
-html[lang="ar"] .facts b {
-  line-height: 1.3 !important;
-}
-html[lang="ar"] .facts > div > span {
-  line-height: 1.6;
-}
-html[lang="ar"] .nav .l .ddp a {
+html[lang="ar"] .facts > div > span, html[lang="ar"] .nav .l .ddp a {
   line-height: 1.6;
 }
 html[lang="ar"] h2 + p,
@@ -2529,10 +2471,7 @@ html[lang="ar"] .pcard .tag {
 .mqrow {
   display: block;
 }
-.mqar {
-  display: none;
-}
-html[dir="rtl"] .mqen {
+.mqar, html[dir="rtl"] .mqen {
   display: none;
 }
 html[dir="rtl"] .mqar {
