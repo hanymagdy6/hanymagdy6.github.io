@@ -106,7 +106,9 @@
     "fact_images": "Images",
     "fact_designer": "Designer",
     "designer_name": "Hany Magdy",
-    "prev_project": "Previous project"
+    "prev_project": "Previous project",
+    "visual_identity": "Visual Identity",
+    "logo_marks_note": "Logo marks and brand touchpoints"
   },
   "ar": {
     "available_badge": "متاح لمشاريع جديدة",
@@ -214,7 +216,9 @@
     "fact_images": "عدد الصور",
     "fact_designer": "المصمم",
     "designer_name": "هاني مجدي",
-    "prev_project": "المشروع السابق"
+    "prev_project": "المشروع السابق",
+    "visual_identity": "الهوية البصرية",
+    "logo_marks_note": "شعارات وتطبيقات الهوية"
   },
   "_notes": {
     "available_badge": "badge: home hero + contact page",
