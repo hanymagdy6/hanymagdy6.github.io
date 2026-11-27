@@ -3111,3 +3111,13 @@ html[dir="rtl"] .nav .mono img {
 @media(max-width:440px){.hbtns{gap:8px}.hbtns .pill{padding:14px 18px;font-size:12px;letter-spacing:.06em;white-space:nowrap}}
 @media(max-width:350px){.hbtns{gap:6px}.hbtns .pill{padding:12px 11px;font-size:11px;letter-spacing:.02em}}
 .hbtns{padding:0 !important}
+
+/* larger tap area for the language button, same look */
+.langbtn {
+  position: relative;
+}
+.langbtn::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+}
