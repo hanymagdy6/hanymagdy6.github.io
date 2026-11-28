@@ -164,9 +164,6 @@ font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
   .grid.two {
     grid-template-columns: 1fr 1fr;
   }
-  .grid.four {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
 body {
   background: #fff;
@@ -605,7 +602,7 @@ animation: pgin 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
     font-size: 13px;
   }
 }
-[data-view="p-rui-brew"] .v-p-rui-brew, [data-view="p-splasho"] .v-p-splasho, [data-view="p-logo-brand"] .v-p-logo-brand, [data-view="p-el-ghazal"] .v-p-el-ghazal, [data-view="p-safe-zone"] .v-p-safe-zone, [data-view="p-soul-fitness"] .v-p-soul-fitness, [data-view="p-clarena"] .v-p-clarena, [data-view="p-gym-social"] .v-p-gym-social {
+[data-view="p-rui-brew"] .v-p-rui-brew, [data-view="p-splasho"] .v-p-splasho, [data-view="p-logo-brand"] .v-p-logo-brand, [data-view="p-el-ghazal"] .v-p-el-ghazal, [data-view="p-safe-zone"] .v-p-safe-zone, [data-view="p-soul-fitness"] .v-p-soul-fitness, [data-view="p-clarena"] .v-p-clarena {
   display: block;
 }
 [data-view="p-real-estate"] .v-p-real-estate, [data-view="p-pink-october"] .v-p-pink-october, [data-view="p-oct-war"] .v-p-oct-war, [data-view="p-svs-events"] .v-p-svs-events, [data-view="p-smart-portfolio"] .v-p-smart-portfolio, [data-view="p-jabal-altair"] .v-p-jabal-altair, [data-view="p-essse-caffe"] .v-p-essse-caffe, [data-view="p-food-social"] .v-p-food-social {
@@ -1250,15 +1247,13 @@ html[lang="ar"] .ddp a {
 .grid,
 .grid.pg,
 .grid.two,
-.grid.one,
-.grid.four {
+.grid.one {
   column-gap: 14px;
 }
 @media (min-width: 900px) {
   .grid,
   .grid.pg,
-  .grid.two,
-  .grid.four {
+  .grid.two {
     column-count: 3;
   }
   .grid.one {
@@ -1268,8 +1263,7 @@ html[lang="ar"] .ddp a {
 @media (max-width: 480px) {
   .grid,
   .grid.pg,
-  .grid.two,
-  .grid.four {
+  .grid.two {
     column-count: 1;
   }
 }
@@ -1292,8 +1286,7 @@ img:not(.nav img):not(.langbtn img):not([src$=".svg"]), .card, .pcard, .pimg img
 .grid,
 .grid.pg,
 .grid.two,
-.grid.one,
-.grid.four {
+.grid.one {
   display: flex !important;
   flex-wrap: wrap;
   column-count: auto !important;
