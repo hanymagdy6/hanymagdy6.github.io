@@ -33,6 +33,10 @@
     b.setAttribute("data-ken", k[0]);
     b.setAttribute("data-kar", k[1]);
     a.appendChild(b);
+    var m = document.createElement("span");
+    m.className = "pmeta";
+    m.innerHTML = '<span class="pn"></span><b class="pd"></b>';
+    a.appendChild(m);
   });
   function paint() {
     var ar = document.documentElement.lang === "ar";
@@ -41,14 +45,27 @@
       b.textContent = ar
         ? b.getAttribute("data-kar") + (n ? "، " + arCount(n) : "")
         : b.getAttribute("data-ken") + (n ? ", " + enCount(n) : "");
+      var mm = b.nextSibling;
+      if (mm && mm.className === "pmeta") {
+        mm.querySelector(".pn").textContent = n ? (ar ? arCount(n) : enCount(n)) : "";
+        mm.querySelector(".pd").textContent = ar ? "هاني مجدي" : "Hany Magdy";
+      }
     });
   }
   paint();
   new MutationObserver(paint).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
-  var rg = document.querySelector(".hhero .rgs");
-  if (rg) {
+  var hab = document.querySelector(".hhero .hab");
+  var me = hab && hab.querySelector("img.me");
+  if (me) {
     var big = document.createElement("i");
     big.className = "rgb";
-    rg.insertBefore(big, rg.firstChild);
+    big.setAttribute("aria-hidden", "true");
+    me.insertAdjacentElement("afterend", big);
+    var cut = me.cloneNode(false);
+    cut.src = "images/hany-band-cut.png";
+    cut.alt = "";
+    cut.setAttribute("aria-hidden", "true");
+    cut.classList.add("mecut");
+    big.insertAdjacentElement("afterend", cut);
   }
 })();
